@@ -1,0 +1,77 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #f3f3f3;
+  color: #888888;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  line-height: 1.5;
+}
+
+.issues {
+  margin: 40px;
+  width: 1270px;
+}
+
+.issues h1 {
+  color: #1b1b1b;
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+
+.issues .lead-text {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.issues .left {
+  float: left;
+  margin-bottom: 10px;
+  width: 500px;
+}
+
+.issues .left .image {
+  width: 500px;
+  margin-bottom: 10px;
+  border-radius: 20px;
+}
+
+.issues .left h3 {
+  color: #1b1b1b;
+  font-size: 25px;
+  line-height: 1.2;
+  margin-bottom: 10px;
+}
+
+.issues .right {
+  float: right;
+  width: 700px;
+}
+
+.issues .right .list li {
+  margin-bottom: 20px;
+  padding-bottom: 10px;
+  border-bottom: 1px dashed rgb(255, 68, 68);
+}
+
+.issues .right .list .imgSmall {
+  float: left;
+  width: 100px;
+  border-radius: 4px;
+  margin-right: 10px;
+}
+
+.issues .right .list .detail h3 {
+  color: #1b1b1b;
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+
+.issues .right .issues .right .list .detail {
+  float: right;
+  width: 570px;
+  padding-top: 3px;
+}
