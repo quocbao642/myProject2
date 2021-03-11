@@ -19,9 +19,7 @@ let id = 0;
 
 const clickNext = () => {
   id = parseInt(id + 1);
-  console.log(id);
-  let url = `https://picsum.photos/id/${id}/200/300`;
-  getBlob(url);
+  getBlob(`https://picsum.photos/id/${id}/200/300`);
 };
 
 const clickPrev = () => {
@@ -30,8 +28,5 @@ const clickPrev = () => {
   } else {
     alert("No Image");
   }
-  console.log(id);
-  let url = `https://picsum.photos/id/${id}/200/300`;
-  getBlob(url);
+  getBlob(`https://picsum.photos/id/${id}/200/300`);
 };
-/* đến đây nè */
